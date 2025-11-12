@@ -15,34 +15,35 @@ import PaymentMethod from "../../../components/Homepage/PaymentMethod";
 import WelcomeBonus from "../../../components/Homepage/WelcomeBonus";
 import BonusPromotion from "../../../components/Homepage/BonusPromotion";
 
+import HotGames from "../../../components/Homepage/HotGames";
+
+import WhyChoose from "../../../components/Homepage/WhyChoose";
+import Sponsors from "../../../components/Homepage/Sponsors";
+
 const page = () => {
   return (
     <div className="w-full">
-      <div className="relative   flex items-center">
+      <div className="relative   lg:flex hidden items-center">
         <Image src={Hero} alt="" className="w-full" />
 
         <div className="absolute text-white items-center   left-7">
           <div className="">
-            {/* Header */}
             <div className="mb-2">
               <p className="text-xs font-semibold tracking-wider uppercase opacity-90">
                 WELCOME PACK
               </p>
             </div>
 
-            {/* Main Offer */}
             <div className="mb-1">
               <h2 className="text-4xl font-bold leading-tight">
                 620% up to $8,000
               </h2>
             </div>
 
-            {/* Subtext */}
             <div className="mb-6">
               <p className="text-sm opacity-80">+400 FS on first 4 deposits</p>
             </div>
 
-            {/* Join Now Button */}
             <button className="flex cursor-pointer items-center space-x-1 bg-gradient-to-b from-[#f80507] to-[#860001] hover:opacity-90 px-3 py-1.5 rounded-md text-white font-medium transition">
               <span>Join Now</span>
             </button>
@@ -60,6 +61,9 @@ const page = () => {
       <LiveCasino />
       <PaymentMethod />
       <BonusPromotion />
+      <HotGames />
+      <WhyChoose />
+      <Sponsors />
     </div>
   );
 };

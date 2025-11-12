@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "../components/layout/Header";
 
 import Sidebar from "../components/layout/Sidebar";
+import Footer from "../components/layout/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,13 +23,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#061621]`}
       >
         <Header />
-        <div className="grid lg:grid-cols-4 bg-[#061621] min-h-[100vh] lg:gap-8 px-4">
-          <Sidebar />
-          <div className="col-span-3 ">{children}</div>
+        <div className="grid lg:grid-cols-4 bg-[#061621] mb-6 min-h-[100vh] lg:gap-8 px-4">
+          <div className="lg:block hidden">
+            <Sidebar />
+          </div>
+          <div className="lg:col-span-3 ">{children}</div>
         </div>
+        <Footer />
       </body>
     </html>
   );

@@ -8,7 +8,7 @@ import Give from "../../public/Give.png";
 const PaymentMethod = () => {
   return (
     <div className="my-6">
-      <div className="relative flex items-center">
+      <div className="relative lg:flex hidden  items-center">
         <div className="absolute inline-flex gap-4 left-4">
           <Image src={Give} alt="" />
           <div className="space-y-3">

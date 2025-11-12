@@ -25,7 +25,7 @@ const logos = [
 
 export default function Sponsors() {
   return (
-    <div className="flex flex-wrap justify-center items-center gap-6  pb-6 ">
+    <div className="flex flex-wrap justify-center items-center gap-6  pb-6 overflow-clip">
       {logos.map((logo, index) => (
         <div
           key={index}

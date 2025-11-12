@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <div className="bg-[#061621] text-white text-sm w-full">
       {/* Main Header */}
-      <div className="flex items-center justify-between px-3 sm:px-4 py-3 sm:py-4">
+      <div className="flex items-center justify-between px-3 sm:px-4 py-3 sm:py-4 w-full">
         {/* Left Section */}
         <div className="flex items-center space-x-3 sm:space-x-6 md:space-x-[100px] lg:space-x-[200px]">
           {/* Logo */}

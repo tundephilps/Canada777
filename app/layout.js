@@ -26,11 +26,11 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#061621]`}
       >
         <Header />
-        <div className="grid lg:grid-cols-4 bg-[#061621] mb-6 min-h-[100vh] lg:gap-8 px-4">
+        <div className="grid lg:grid-cols-4 grid-cols-1 bg-[#061621] mb-6  lg:gap-8 px-4">
           <div className="lg:block hidden">
             <Sidebar />
           </div>
-          <div className="lg:col-span-3 ">{children}</div>
+          <div className="lg:col-span-3 col-span-4">{children}</div>
         </div>
         <Footer />
       </body>

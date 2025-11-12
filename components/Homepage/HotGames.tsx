@@ -38,7 +38,7 @@ const HotGames = () => {
           </div>
         </div>
       </div>
-      <div className="grid lg:grid-cols-5 gap-2">
+      <div className="grid lg:grid-cols-5 grid-cols-2 gap-2">
         {games.map((game, index) => (
           <div
             key={index}

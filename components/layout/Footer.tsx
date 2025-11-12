@@ -6,9 +6,9 @@ import Signs from "../../public/Signs.png";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#081826] text-gray-400 text-sm ">
+    <footer className="bg-[#081826] text-gray-400 text-sm w-full">
       {/* Top Section */}
-      <div className="lg:px-12 mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 border-b border-gray-800">
+      <div className="lg:px-12 mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 border-b border-gray-800 w-full">
         {/* Logo and Description */}
         <div className="space-y-4">
           <Image

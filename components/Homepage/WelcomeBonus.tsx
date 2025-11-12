@@ -34,16 +34,16 @@ const WelcomeBonus = () => {
           </div>
         </div>
       </div>
-      <div className="grid lg:grid-cols-2 gap-4">
+      <div className="grid lg:grid-cols-2  w-full gap-4">
         <Image
           src={Depo1}
           alt=""
-          className="cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/50"
+          className="cursor-pointer transition-all w-full duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/50"
         />
         <Image
           src={Depo2}
           alt=""
-          className="cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/50"
+          className="cursor-pointer transition-all w-full duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-blue-500/50"
         />
       </div>
     </div>

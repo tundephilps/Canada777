@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FaMoneyBillWave, FaUserHeadset, FaShieldAlt } from "react-icons/fa";
 import US1 from "../../public/US1.png";
 import US2 from "../../public/US2.png";
 import US3 from "../../public/US3.png";

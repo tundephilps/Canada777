@@ -2,23 +2,23 @@ import Image from "next/image";
 import React from "react";
 import Hero from "../../../public/Hero.png";
 import Visa from "../../../public/Visa.png";
-import CasinoNavigation from "../../../components/Homepage/Navigation";
+import CasinoNavigation from "../../../components/homepage/navigation";
 import Depo1 from "../../../public/Depo1.png";
 
 import Depo2 from "../../../public/Depo2.png";
 import { BsGiftFill } from "react-icons/bs";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
-import NewGames from "../../../components/Homepage/NewGames";
-import TopGames from "../../../components/Homepage/TopGames";
-import LiveCasino from "../../../components/Homepage/LiveCasino";
-import PaymentMethod from "../../../components/Homepage/PaymentMethod";
-import WelcomeBonus from "../../../components/Homepage/WelcomeBonus";
-import BonusPromotion from "../../../components/Homepage/BonusPromotion";
+import NewGames from "../../../components/homepage/new-games";
+import TopGames from "../../../components/homepage/top-games";
+import LiveCasino from "../../../components/homepage/live-casino";
+import PaymentMethod from "../../../components/homepage/payment-method";
+import WelcomeBonus from "../../../components/homepage/welcome-bonus";
+import BonusPromotion from "../../../components/homepage/bonus-promotion";
 
-import HotGames from "../../../components/Homepage/HotGames";
+import HotGames from "../../../components/homepage/hot-games";
 
-import WhyChoose from "../../../components/Homepage/WhyChoose";
-import Sponsors from "../../../components/Homepage/Sponsors";
+import WhyChoose from "../../../components/homepage/why-choose";
+import Sponsors from "../../../components/homepage/sponsors";
 
 const page = () => {
   return (
